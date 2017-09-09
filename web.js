@@ -1,6 +1,5 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const process = require('./config.js')
 const packageInfo = require('./package.json');
 
 const app = express();
