@@ -1,6 +1,4 @@
-const process = require('./config');
-
-const token = process.env.telegramKey;
+const token = process.env.TELEGRAM_KEY;
 
 const Bot = require('node-telegram-bot-api');
 let bot;
